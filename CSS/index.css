@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    color: white;
+    font-family: 'Kaushan Script', cursive; 
+
+}
+
+.top_navbar a{
+    color: #0d6efd;
+    font-size:25px ;
+}
+
+.top_navbar a:hover{
+    rotate: 350deg;
+}
+
+
+/* main_image css start*/
+.main_img{
+    height: 900px;
+    background-image: url(/images/background_img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #0d6efd;
+    
+}
+
+
+/* main_image css end*/
+
+/* about css start */
+.about{
+    font-family: 'Kaushan Script', cursive;
+    color: #0d6efd;
+         
+}
+
+.education{
+    color: #0d6efd;
+}
+
+.about_cont h5{
+    color:#b97eea
+    ;
+}
+
+/* about css end */
+
+
+
+.skill{
+    color: #0d6efd;
+}
+
+
+
+/* contact cont. start */
+.contact{
+    font-family: 'Kaushan Script', cursive;
+    color: #0d6efd;
+}
+
+
+.contact_cont a{
+    text-decoration: none;
+
+}
+
+.contact_cont span{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact_cont span:hover{
+    color: #b97eea;    
+}
+
+.social_icon a img{
+width: 40px;
+}
+.contact_cont form input{
+    background: #D8D7D5;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contact_cont form textarea{
+    background: #D8D7D5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* contact cont. end */
+
+
+.footer{
+    height: 50px;
+    text-align: center;
+    background: #171717;
+}
+.footer:hover{
+    color: #b97eea;
+}
